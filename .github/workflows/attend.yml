@@ -22,5 +22,4 @@ jobs:
         env:
           COOKIES: ${{ secrets.COOKIES }}
         run: |
-          pip install -r requirements.txt
-          python3 ./main.py
+          echo $COOKIES.
